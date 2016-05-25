@@ -1,0 +1,36 @@
+/*----------  Buttons  ----------*/
+
+.button {
+    position: relative;
+    display: inline-block;
+    width: auto;
+    height: 40px;
+    padding: 0 14px;
+    line-height: 36px;
+    border: 3px solid #1AAFD0;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #1AAFD0;
+    transition: all 0.3s;
+    cursor: pointer;
+    &:hover {
+        background-color: #1AAFD0;
+        color: #fff;
+    }
+    &--positive {
+        border-color: #02C39A;
+        color: #02C39A;
+        &:hover {
+            background-color: #02C39A;
+        }
+    }
+    &--negative {
+        border-color: #F45B69;
+        color: #F45B69;
+        &:hover {
+            background-color: #F45B69;
+        }
+    }
+}

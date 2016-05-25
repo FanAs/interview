@@ -1,0 +1,100 @@
+html {
+    height: 100%;
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-weight: normal;
+    line-height: 1.5;
+    color: #0a0a0a;
+    background: #fefefe;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    -ms-interpolation-mode: bicubic;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+textarea {
+    height: auto;
+    min-height: 50px;
+    border-radius: 3;
+    resize: none;
+  }
+
+select {
+    width: 100%;
+    border-radius: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+td,
+th {
+    padding: 0;
+}
+
+.input-wrap {
+    label {
+        position: absolute;
+        top: -20px;
+        left: 0;
+        height: 20px;
+        padding-left: 10px;
+        line-height: 18px;
+        font-size: 18px;
+        font-weight: 600;
+        color: #000;
+    }
+    .error-msg {
+        position: absolute;
+        top: -20px;
+        right: 0;
+        height: 20px;
+        padding: 0 6px;
+        line-height: 20px;
+        background-color: red;
+        font-size: 14px;
+        font-weight: 400;
+        color: #fff;
+    }
+}
+
+input, textarea {
+    padding: 8px 10px;
+    border: 1px solid #DCDCDD;
+    border-radius: 3px 3px 3px 3px;
+    &:hover {
+        border-color: #C5C3C6;
+    }
+    &:focus {
+        border-color: #46494C;
+         outline: none;
+    }
+    &[disabled] {
+        border-color: white !important;
+        background-color: #fff !important;
+    }
+    &.error {
+        border-color: red;
+        color: red;
+    }
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="app">
+    <div class="list">
+        <div class="list__header">
+           <!-- Filter and Search Component
+           <div class="search">
+                <input class="input" type="text" name="" value="" placeholder="Search ...">
+            </div>
+            <div class="filter">
+                <div class="filter__item filter__item--active">All</div>
+                <div class="filter__item">A-Z</div>
+                <div class="filter__item">Z-A</div>
+            </div> -->
+            <div class="heading">Contact List</div>
+        </div>
+        <div class="list__content">
+            <div class="item">
+                <div class="in">
+                    <div class="profile-pic"></div>
+                    Janko Mrkva
+                </div>
+            </div>
+            <div class="item item--active">
+                <div class="in">
+                    <div class="profile-pic"></div>
+                    Patrik Vrbovsky
+                </div>
+            </div>
+            <div class="item">
+                <div class="in">
+                    <div class="profile-pic"></div>
+                    Tomáš Jedno
+                </div>
+            </div>
+        </div>
+        <div class="list__footer">
+            <div class="add-bttn"><span class="in">Add new contact</span></div>
+        </div>
+
+
+
+    </div>
+    <div class="detail">
+        <div class="item">
+            <div class="item__header">
+                <div class="profile-pic"></div>
+                <!-- ALTERNATIVE <div class="name">Patrik Vrbovsky</div> -->
+                <input class="name" type="text" name="" value="Patrik Vrbovsky" placeholder="Full Name" disabled>
+            </div>
+            <div class="item__content">
+                <div class="input-wrap">
+                    <label for="bio">Bio</label>
+                    <textarea name="bio" class="bio" placeholder="Decsription" disabled>dkfkjgi hiduhiodsuhfiuh iuwhrfiusdshfi uhdsfiuh siufhsailu fhiuhf disufhidsuhf isdufhidu hfihf isdufhidu hfihf isdufhidu hfiu</textarea>
+                </div>
+                <div class="input-wrap">
+                    <!-- ALTERNATIVE <div class="tel">+420 777 888 999</div> -->
+                    <label for="tel">Phone</label>
+                    <input type="text" name="tel" class="tel" value="+420 777 888 999" placeholder="+XXX XXX XXX XXX" disabled>
+                </div>
+                <div class="input-wrap">
+                    <!-- ALTERNATIVE <div class="tel">+420 777 888 999</div> -->
+                    <label for="email">E-mail</label>
+                    <input type="text" class="email" value="brand@embassy.com" placeholder="E-mail" disabled>
+                </div>
+            </div>
+            <div class="item__footer">
+                <div class="button">Edit</div>
+                <div class="button button--negative">Delete</div>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="item__header">
+                <div class="profile-pic"></div>
+                <!-- ALTERNATIVE <div class="name">Patrik Vrbovsky</div> -->
+                <input class="name" type="text" name="" value="Patrik Vrbovsky" placeholder="Full Name" >
+            </div>
+            <div class="item__content">
+                <div class="input-wrap">
+                    <label for="bio">Bio</label>
+                    <textarea name="bio" class="bio" placeholder="Decsription" >dkfkjgi hiduhiodsuhfiuh iuwhrfiusdshfi uhdsfiuh siufhsailu fhiuhf disufhidsuhf isdufhidu hfihf isdufhidu hfihf isdufhidu hfiu</textarea>
+                </div>
+                <div class="input-wrap">
+                    <!-- ALTERNATIVE <div class="tel">+420 777 888 999</div> -->
+                    <label for="tel">Phone</label>
+                    <input type="text" name="tel" class="tel" value="+420 777 888 999" placeholder="+XXX XXX XXX XXX" >
+                </div>
+                <div class="input-wrap">
+                    <!-- ALTERNATIVE <div class="email">brand&embassy.com</div> -->
+                    <label for="email">E-mail</label>
+                    <span class="error-msg">Invalid E-mail</span>
+                    <input type="text" class="email error" value="brand&embassy.com" placeholder="E-mail" >
+                </div>
+            </div>
+            <div class="item__footer">
+                <div class="button button--positive">Save</div>
+                <div class="button button--negative">Delete</div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
